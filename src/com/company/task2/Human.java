@@ -15,6 +15,7 @@ public class Human {
 
     public void say() {
         System.out.println("Name: "+name+"\n"+" Age: "+age+"\n"+" Height: "+height+"\n"+" Weitht: "+weitht);
+        System.out.println("hi");
     }
 
 }
