@@ -5,10 +5,10 @@ import com.company.task2.Human;
 public class Main {
 
     public static void main(String[] args) {
-       Human hum=new Human("Serezha",9,1.75,65.8);
-       hum.say();
-       Human girl1 = new Girl("Nastya",18,180,60);
+        Hobby hobby = new Hobby("football",2,"The game where players kick the ball");
+       Girl girl1 = new Girl("Nastya",18,185,55, hobby);
        girl1.say();
+        girl1.getHobby().info();
         }
 }
 
