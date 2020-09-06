@@ -1,5 +1,4 @@
 package com.company.task2;
-
 /**
  * Created by User on 004 04.09.20.
  */
@@ -14,8 +13,11 @@ public class Hobby {
         this.description = description;
     }
 
+    public String toString() {
+        return "Name=" + name + ", Years=" + years + ", Description=" + description;
+    }
     public void info(){
-        System.out.println("Hobby: "+name+" years: "+years+" decription "+ description);
+        System.out.println("Hobby: "+name+"\n"+" years: "+years+"\n"+" decription: "+ description);
 
     }
 }
